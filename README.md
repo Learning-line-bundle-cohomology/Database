@@ -18,7 +18,7 @@ Folder|Description
 [./Genus-4](Genus-4)|A genus four curve with *D_C=(5;-2,-2,-1)*. This curve has 14 monomials. We compute data for 13 different line bundles.
 [./Genus-5](Genus-5)|A genus five curve with *D_C=(5;-1,-1,-2)*. This curve has 16 monomials. We compute data for 13 different line bundles.
 
-Each folder contains a file `CurveData.csv` and subfolders (one for each line bundle). Each subfolder will contain a `SummaryOfResults` folder with a file `ResultsWithSplitIntersectionsPlusLocalSections.csv`
+Each folder contains a file `CurveData.csv` and subfolders (one for each line bundle). Each subfolder will contain a `SummaryOfResults` folder with a file `ResultsWithSplitIntersectionsPlusLocalSections.csv`.
 
 ## Structure of CurveData.csv
 Here we explain what the different columns of the `CurveData.csv` file mean:
