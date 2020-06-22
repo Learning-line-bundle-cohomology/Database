@@ -2,7 +2,7 @@
 In this repository, we collect data on line bundle cohomologies over curves in a del Pezzo surface of degree 6. This data was analyzed in a publication using Decision Trees.
 
 # How to read the CSV files
-We have computed line bundle comohmologies for line bundles of different degrees over curves of different genera. The curves and line bundles are specified as follows:
+We have computed line bundle cohomologies for line bundles of different degrees over curves of different genera. The curves and line bundles are specified as follows:
 A del Pezzo surface is a complex two-dimensional surface obtained from blowing up the complex projective space CP^2 in three points in general position. We denote the hyperplane class of CP^2 by *H* and the divisor classes of the three blowup divisors by *E_1*, *E_2*, and *E_3*, respectively. A curve inside the del Pezzo surface given as a section of *a H + b E_1 + c E_2 + d E_3* is then specified as *D_C=(a;b,c,d)*. Similarly, we specify a line bundle *L* by giving the first Chern class of the bundle for each divisor class, *D_L=(a';b',c',d')*.
 The folders in this repository are organized by the genus of the curve, with subfolders for the individual line bundles.
 
@@ -47,11 +47,11 @@ curve|Specification of the curve *D_C=(a;b,c,d)* as explained above
 bundle|Specification of the bundle *D_L=(a';b',c',d')* as explained above
 time|Computation time of the  bundle cohomology
 splits|The number of components the curve splits into
-h0|The dimension of the zeroth homology group of the bundle on the curve
-h1|The dimension of the first homology group of the bundle on the curve
+h0|The dimension of the zeroth cohomology group of the bundle on the curve
+h1|The dimension of the first cohomology group of the bundle on the curve
 SplitIntersections|Intersections of the line bundle with the split components of the curve
 rho|Integer lower bound on the dimension of h0 computed using Brill-Noether theory
-generic|Indicates whether the homology is generic, i.e. whether h0 and h1 have their minimal values (indicated by a 1) or not (indicated by a 0)
+generic|Indicates whether the cohomology is generic, i.e. whether h0 and h1 have their minimal values (indicated by a 1) or not (indicated by a 0)
 local-sections-A|The values of *[h0,h1]* for each split component of the curve. 'NA' means we have not computed the value individually
 
 # Citation
