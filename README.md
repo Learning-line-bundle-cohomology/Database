@@ -4,7 +4,7 @@ In this repository, we collect data on line bundle cohomologies over curves in a
 # How to read the CSV files
 We have computed line bundle comohmologies for line bundles of different degrees over curves of different genera. The curves and line bundles are specified as follows:
 A del Pezzo surface is a complex two-dimensional surface obtained from blowing up the complex projective space CP^2 in three points in general position. We denote the hyperplane class of CP^2 by *H* and the divisor classes of the three blowup divisors by *E_1*, *E_2*, and *E_3*, respectively. A curve inside the del Pezzo surface given as a section of *a H + b E_1 + c E_2 + d E_3* is then specified as *D_C=(a;b,c,d)*. Similarly, we specify a line bundle *L* by giving the first Chern class of the bundle for each divisor class, *D_L=(a';b',c',d')*.
-The folders in this repository are organized by the genus of the curve.
+The folders in this repository are organized by the genus of the curve, with subfolders for the individual line bundles.
 
 ## Folder structure
 Folder|Description
