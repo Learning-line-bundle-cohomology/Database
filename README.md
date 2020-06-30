@@ -59,7 +59,7 @@ local-sections-A|The values of *[h0,h1]* for each split component of the curve. 
 If you want to cite this data, please use the bibtex below or download it [here]("./Bies2020.bib"):
 ```bibtex
 @article{Bies:2020xxx,
-    author = "Bies, Martin and Cvetic, Mirjam and Donagi, Ron and Lin, Ling and Liu, Muyang and Ruehle, Fabian",
+    author = "Bies, Martin and Cveti{\v c}, Mirjam and Donagi, Ron and Lin, Ling and Liu, Muyang and Ruehle, Fabian",
     title = "{xxx}",
     eprint = "xxx",
     archivePrefix = "arXiv",
