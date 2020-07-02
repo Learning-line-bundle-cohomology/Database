@@ -56,7 +56,7 @@ generic|Indicates whether the cohomology is generic, i.e. whether h0 and h1 have
 local-sections-A|The values of *[h0,h1]* for each split component of the curve. 'NA' means we have not computed the value individually
 
 # Citation
-If you want to cite this data, please use the bibtex below or download it [here]("./Bies2020.bib"):
+If you want to cite this data, please use the bibtex below or download it [here]("./bibtex.bib"):
 ```bibtex
 @article{1804533,
     author = "Bies, Martin and Cveti{\v c}, Mirjam and Donagi, Ron and Lin, Ling and Liu, Muyang and Ruehle, Fabian",
