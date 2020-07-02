@@ -68,4 +68,10 @@ If you want to cite this data, please use the bibtex below or download it [here]
     month = "6",
     year = "2020"
 }
+@Misc{Database,
+  author       = {Bies, Martin and Cveti{\v c}, Mirjam and Donagi, Ron and Lin, Ling and Liu, Muyang and Rühle, Fabian},
+  howpublished = {\url{https://github.com/Learning-line-bundle-cohomology/Database}},
+  title        = {Database},
+  year         = {2020},
+}
 ```
