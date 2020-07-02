@@ -1,5 +1,5 @@
 # Database
-In this repository, we collect data on line bundle cohomologies over curves in a del Pezzo surface of degree 6. This data was analyzed in a publication using Decision Trees.
+In this repository, we collect data on line bundle cohomologies over curves in a del Pezzo surface of degree 6. This data was analyzed in our [publication](https://arxiv.org/abs/2007.00009) using Decision Trees. The so-obtained insights, supplemented and extended by a working understanding of the corresponding algebraic geometry, lead to the software [H0Approximator](https://github.com/homalg-project/ToricVarieties_project/tree/master/H0Approximator).
 
 # How to read the CSV files
 We have computed line bundle cohomologies for line bundles of different degrees over curves of different genera. The curves and line bundles are specified as follows:
@@ -58,12 +58,20 @@ local-sections-A|The values of *[h0,h1]* for each split component of the curve. 
 # Citation
 If you want to cite this data, please use the bibtex below or download it [here]("./Bies2020.bib"):
 ```bibtex
-@article{Bies:2020xxx,
+@article{1804533,
     author = "Bies, Martin and Cveti{\v c}, Mirjam and Donagi, Ron and Lin, Ling and Liu, Muyang and Ruehle, Fabian",
-    title = "{xxx}",
-    eprint = "xxx",
+    title = "{Machine Learning and Algebraic Approaches towards Complete Matter Spectra in 4d F-theory}",
+    eprint = "2007.00009",
     archivePrefix = "arXiv",
     primaryClass = "hep-th",
+    reportNumber = "UPR-1305-T, CERN-TH-2020-111",
+    month = "6",
     year = "2020"
+}
+@Misc{Database,
+  author       = {Bies, Martin and Cveti{\v c}, Mirjam and Donagi, Ron and Lin, Ling and Liu, Muyang and Rühle, Fabian},
+  howpublished = {\url{https://github.com/Learning-line-bundle-cohomology/Database}},
+  title        = {Database},
+  year         = {2020},
 }
 ```
