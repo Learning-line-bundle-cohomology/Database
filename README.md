@@ -9,15 +9,15 @@ The folders in this repository are organized by the genus of the curve, with sub
 ## Folder structure
 Folder|Description
 ------|-----------
-[./Genus-1](Genus-1)|A genus one curve with *D_C=(3;-1,-1,-1)*. This curve has 7 monomials. We compute data for 13 different line bundles.
-[./Genus-1-2](Genus-1-2)|A disjoint union of a genus 0 and genus 2 curve genus one curve with *D_C=(4;-1,-2,1)*. This curve has 11 monomials. We compute data for 13 different line bundles.
-[./Genus-2](Genus-2)|A genus two curve with *D_C=(4;-1,-2,-1)*. This curve has 10 monomials. We compute data for 13 different line bundles.
-[./Genus-2-2](Genus-2-2)|A genus two curve with *D_C=(4;-1,-2,0)*. This curve has 11 monomials. We compute data for 1 line bundle.
-[./Genus-2-3](Genus-2-3)|Two genus two curves. The first is *D_C=(3;-3,-1,-2)*. This curve has 10 monomials. We compute data for 1 line bundle. The second is *D_C=(4;-7,-1,-3)*. This curve has 10 monomials. We compute data for 1 line bundle.
-[./Genus-3](Genus-3)|A genus three curve with *D_C=(4;-1,-1,-1)*. This curve has 12 monomials. We compute data for 13 different line bundles.
-[./Genus-4](Genus-4)|A genus four curve with *D_C=(5;-2,-2,-1)*. This curve has 14 monomials. We compute data for 13 different line bundles.
-[./Genus-5](Genus-5)|A genus five curve with *D_C=(5;-1,-1,-2)*. This curve has 16 monomials. We compute data for 13 different line bundles.
-[./Genus-6](Genus-6)|A genus five curve with *D_C=(6;-3,-2,-1)*. This curve has 18 monomials. We compute data for 2 different line bundless.
+[Genus-1](./Genus-1)|A genus one curve with *D_C=(3;-1,-1,-1)*. This curve has 7 monomials. We compute data for 13 different line bundles.
+[Genus-1-2](./Genus-1-2)|A disjoint union of a genus 0 and genus 2 curve genus one curve with *D_C=(4;-1,-2,1)*. This curve has 11 monomials. We compute data for 13 different line bundles.
+[Genus-2](./Genus-2)|A genus two curve with *D_C=(4;-1,-2,-1)*. This curve has 10 monomials. We compute data for 13 different line bundles.
+[Genus-2-2](./Genus-2-2)|A genus two curve with *D_C=(4;-1,-2,0)*. This curve has 11 monomials. We compute data for 1 line bundle.
+[Genus-2-3](./Genus-2-3)|Two genus two curves. The first is *D_C=(3;-3,-1,-2)*. This curve has 10 monomials. We compute data for 1 line bundle. The second is *D_C=(4;-7,-1,-3)*. This curve has 10 monomials. We compute data for 1 line bundle.
+[Genus-3](./Genus-3)|A genus three curve with *D_C=(4;-1,-1,-1)*. This curve has 12 monomials. We compute data for 13 different line bundles.
+[Genus-4](./Genus-4)|A genus four curve with *D_C=(5;-2,-2,-1)*. This curve has 14 monomials. We compute data for 13 different line bundles.
+[Genus-5](./Genus-5)|A genus five curve with *D_C=(5;-1,-1,-2)*. This curve has 16 monomials. We compute data for 13 different line bundles.
+[Genus-6](./Genus-6)|A genus five curve with *D_C=(6;-3,-2,-1)*. This curve has 18 monomials. We compute data for 2 different line bundless.
 
 Each folder contains a file `CurveData.csv` and subfolders (one for each line bundle). Each subfolder will contain a `SummaryOfResults` folder with a file `ResultsWithSplitIntersectionsPlusLocalSections.csv`.
 
@@ -56,7 +56,7 @@ generic|Indicates whether the cohomology is generic, i.e. whether h0 and h1 have
 local-sections-A|The values of *[h0,h1]* for each split component of the curve. 'NA' means we have not computed the value individually
 
 # Citation
-If you want to cite this data, please use the bibtex below or download it [./bibtex.bib"](here):
+If you want to cite this data, please use the bibtex below or download it [here](./bibtex.bib):
 ```bibtex
 @article{Bies:2020xxx,
     author = "Bies, Martin and Cveti{\v c}, Mirjam and Donagi, Ron and Lin, Ling and Liu, Muyang and Ruehle, Fabian",
