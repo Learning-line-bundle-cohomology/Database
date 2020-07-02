@@ -56,9 +56,9 @@ generic|Indicates whether the cohomology is generic, i.e. whether h0 and h1 have
 local-sections-A|The values of *[h0,h1]* for each split component of the curve. 'NA' means we have not computed the value individually
 
 # Citation
-If you want to cite this data, please use the bibtex below or download it [here]("./bibtex.bib"):
+If you want to cite this data, please use the bibtex below or download it [./bibtex.bib"](here):
 ```bibtex
-@article{1804533,
+@article{Bies:2020xxx,
     author = "Bies, Martin and Cveti{\v c}, Mirjam and Donagi, Ron and Lin, Ling and Liu, Muyang and Ruehle, Fabian",
     title = "{Machine Learning and Algebraic Approaches towards Complete Matter Spectra in 4d F-theory}",
     eprint = "2007.00009",
@@ -68,10 +68,11 @@ If you want to cite this data, please use the bibtex below or download it [here]
     month = "6",
     year = "2020"
 }
+
 @Misc{Database,
-  author       = {Bies, Martin and Cveti{\v c}, Mirjam and Donagi, Ron and Lin, Ling and Liu, Muyang and Rühle, Fabian},
+  author       = "Bies, Martin and Cveti{\v c}, Mirjam and Donagi, Ron and Lin, Ling and Liu, Muyang and Ruehle, Fabian",
   howpublished = {\url{https://github.com/Learning-line-bundle-cohomology/Database}},
   title        = {Database},
-  year         = {2020},
+  year         = "2020"
 }
 ```
