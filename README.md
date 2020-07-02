@@ -59,7 +59,7 @@ local-sections-A|The values of *[h0,h1]* for each split component of the curve. 
 If you want to cite this data, please use the bibtex below or download it [here]("./Bies2020.bib"):
 ```bibtex
 @article{1804533,
-    author = "Bies, Martin and Cvetic, Mirjam and Donagi, Ron and Lin, Ling and Liu, Muyang and Ruehle, Fabian",
+    author = "Bies, Martin and Cveti{\v c}, Mirjam and Donagi, Ron and Lin, Ling and Liu, Muyang and Ruehle, Fabian",
     title = "{Machine Learning and Algebraic Approaches towards Complete Matter Spectra in 4d F-theory}",
     eprint = "2007.00009",
     archivePrefix = "arXiv",
