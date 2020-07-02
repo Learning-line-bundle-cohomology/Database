@@ -1,5 +1,5 @@
 # Database
-In this repository, we collect data on line bundle cohomologies over curves in a del Pezzo surface of degree 6. This data was analyzed in a publication using Decision Trees.
+In this repository, we collect data on line bundle cohomologies over curves in a del Pezzo surface of degree 6. This data was analyzed in our [publication](https://arxiv.org/abs/2007.00009) using Decision Trees.
 
 # How to read the CSV files
 We have computed line bundle cohomologies for line bundles of different degrees over curves of different genera. The curves and line bundles are specified as follows:
